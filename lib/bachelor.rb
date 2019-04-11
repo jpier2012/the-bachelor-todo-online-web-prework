@@ -55,7 +55,7 @@ def count_contestants_by_hometown(data, hometown)
     ht_count
   }
 
-  name
+  ht_count
   # code here
 end
 

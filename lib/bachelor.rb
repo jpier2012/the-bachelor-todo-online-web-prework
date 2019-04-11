@@ -52,7 +52,6 @@ def count_contestants_by_hometown(data, hometown)
         ht_count += 1
       end
     }
-    ht_count
   }
 
   ht_count

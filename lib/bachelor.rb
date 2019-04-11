@@ -14,6 +14,7 @@ def get_first_name_of_season_winner(data, season)
       if stats["status"] == "Winner"
         winner_first_name == stats["name"].split(" ")[0]
       end
+    }
   end
     }
   }

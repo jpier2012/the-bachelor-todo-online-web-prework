@@ -26,7 +26,7 @@ def get_contestant_name(data, occupation)
 # returns the name of the women with a certain occupation
   name = ""
 
-  data_set.each {|season_name, contestants|
+  data.each {|season_name, contestants|
     contestants.each {|person|
       if person["occupation"] == occupation
         name = person["name"]

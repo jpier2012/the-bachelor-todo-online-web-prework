@@ -41,6 +41,7 @@ end
 #####
 
 def count_contestants_by_hometown(data, hometown)
+  # count contestants by each hometown
   # code here
 end
 

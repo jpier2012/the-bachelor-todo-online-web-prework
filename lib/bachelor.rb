@@ -82,8 +82,7 @@ def get_average_age_for_season(data, season)
         ages += person["age"]
         contestant_count += 1
     end
-      }
-    }
+  }
 
   ages.to_f / contestant_count.to_f
 end

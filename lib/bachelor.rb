@@ -9,7 +9,7 @@ def get_first_name_of_season_winner(data, season)
   data.each {|season_name, contestants|
   #binding.pry
   if season.to_sym == season_name
-    contestants.each {|name, stats|
+    contestants.each {|person|
       binding.pry
       if stats["status"] == "Winner"
         winner_first_name == stats["name"].split(" ")[0]

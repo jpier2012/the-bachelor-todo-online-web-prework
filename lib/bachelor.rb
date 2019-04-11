@@ -4,7 +4,7 @@ def get_first_name_of_season_winner(data, season)
   # season = season
     contestant.each {|name, stats|
       if stats["status"] == "Winner"
-        winner_first_name == stats["name"].split(" ")
+        winner_first_name == stats["name"].split(" ")[0]
     }
   }
 end

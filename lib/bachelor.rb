@@ -7,8 +7,10 @@ require './lib/data.rb'
 def get_first_name_of_season_winner(data, season)
   winner_first_name = ""
   data.each {|season_name, contestants|
+  #binding.pry
   if season == season_name
     contestants.each {|name, stats|
+      binding.pry
       if stats["status"] == "Winner"
         winner_first_name == stats["name"].split(" ")[0]
       end
@@ -16,7 +18,7 @@ def get_first_name_of_season_winner(data, season)
   end
   }
   winner_first_name
-  binding.pry
+  #binding.pry
 end
 
 puts get_first_name_of_season_winner(data_set,"season 19")

@@ -13,15 +13,12 @@ def get_first_name_of_season_winner(data, season)
 
       if person[:"status"] == "Winner"
         winner_first_name == person[:"name"].split(" ")[0]
-        binding.pry
       end
-      #binding.pry
+
     }
   end
   }
   winner_first_name
-  "There's no winner!" if winner_first_name == ""
-  #binding.pry
 end
 
 puts get_first_name_of_season_winner(data_set,"season 18")

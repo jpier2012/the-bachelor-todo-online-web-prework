@@ -7,15 +7,13 @@ require './lib/data.rb'
 def get_first_name_of_season_winner(data, season)
   winner_first_name = ""
 
-  data.each {|season_name, contestants|
-    if season.to_sym == season_name
+  data[season.to_sym].each {|contestants|
       contestants.each {|person|
         if person[:"status"] == "Winner"
           winner_first_name = person[:"name"].split(" ")[0]
           #binding.pry
         end
       }
-    end
   }
 
   winner_first_name

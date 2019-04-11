@@ -74,7 +74,7 @@ end
 
 def get_average_age_for_season(data, season)
   ages = 0
-    
+
   data.each {|season_name, contestants|
     if season == season_name
       contestants.each {|person|

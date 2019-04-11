@@ -22,7 +22,7 @@ end
 
 puts get_first_name_of_season_winner(data_set,"season 10")
 puts get_first_name_of_season_winner(data_set,"season 16")
-puts get_first_name_of_season_winner(data_set,"season 15")
+puts get_first_name_of_season_winner(data_set,"season 11")
 binding.pry
 #####
 #####

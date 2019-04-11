@@ -32,7 +32,7 @@ def get_contestant_name(data, occupation)
   data_set.each {|season_name, contestants|
     contestants.each {|person|
       if person["occupation"] == occupation
-        winner_first_name = person["name"].split(" ").first
+        name = person["name"]
         #binding.pry
       end
     }

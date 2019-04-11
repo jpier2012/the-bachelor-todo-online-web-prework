@@ -21,7 +21,7 @@ def get_first_name_of_season_winner(data, season)
   winner_first_name.to_s
 end
 
-puts get_first_name_of_season_winner(data, "season 10")
+get_first_name_of_season_winner(data, "season 10")
 #binding.pry
 #####
 #####

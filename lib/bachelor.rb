@@ -30,15 +30,12 @@ def get_contestant_name(data, occupation)
     contestants.each {|person|
       if person["occupation"] == occupation
         name = person["name"]
-        #binding.pry
       end
     }
   }
 
   name
 end
-
-#puts get_contestant_name(data_set, "Chiropractic Assistant")
 
 #####
 #####

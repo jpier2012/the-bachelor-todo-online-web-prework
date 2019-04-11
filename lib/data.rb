@@ -1,5 +1,5 @@
-def data_set
-  data_set =
+def data
+  data =
   {
      "season 19":[
         {

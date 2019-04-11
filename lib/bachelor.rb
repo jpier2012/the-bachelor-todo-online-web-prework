@@ -28,7 +28,18 @@ end
 
 
 def get_contestant_name(data, occupation)
-  # code here
+# returns the name of the women with a certain occupation
+  name = ""
+
+  data.each {|season_name, contestants|
+      contestants.each {|person|
+        if person[:"occupation"] == occupation
+          name = person[:"name"].split(" ")[0]
+        end
+      }
+  }
+
+  winner_first_name
 end
 
 def count_contestants_by_hometown(data, hometown)

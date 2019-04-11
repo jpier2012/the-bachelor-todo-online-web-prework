@@ -11,7 +11,7 @@ def get_first_name_of_season_winner(data, season)
   if season.to_sym == season_name
     contestants.each_with_object {|person, stats|
 
-      if person[:"status"] == "Winner"
+      if stats[:"status"] == "Winner"
         winner_first_name == person[:"name"].split(" ")[0]
       end
       binding.pry

@@ -21,7 +21,7 @@ def get_first_name_of_season_winner(data, season)
   winner_first_name
 end
 
-#puts get_first_name_of_season_winner(data_set,"season 18")
+puts get_first_name_of_season_winner(data_set,"season 18")
 
 #####
 #####
@@ -42,7 +42,7 @@ def get_contestant_name(data, occupation)
   name
 end
 
-puts get_contestant_name(data_set, "Chiropractic Assistant")
+#puts get_contestant_name(data_set, "Chiropractic Assistant")
 
 #####
 #####

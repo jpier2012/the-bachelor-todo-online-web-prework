@@ -2059,6 +2059,7 @@ data_set =
 
 def get_first_name_of_season_winner(data, season)
   winner_first_name = ""
+  binding.pry
   data[season].each {|season, contestant|
   # season = season
     contestant.each {|name, stats|

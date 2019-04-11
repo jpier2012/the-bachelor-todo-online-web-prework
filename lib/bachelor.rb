@@ -21,7 +21,7 @@ def get_first_name_of_season_winner(data, season)
   puts winner_first_name
 end
 
-#puts get_first_name_of_season_winner(data_set,"season 10")
+get_first_name_of_season_winner(data_set,"season 10")
 
 #####
 #####

@@ -20,6 +20,7 @@ def get_first_name_of_season_winner(data, season)
   end
   }
   winner_first_name
+  "" if winner_first_name == ""
   #binding.pry
 end
 

@@ -10,7 +10,7 @@ def get_first_name_of_season_winner(data_set, season)
   data_set.each {|season_name, contestants|
     if season.to_sym == "season 10"
       contestants.each {|person|
-        if person[:status"] == "Winner"
+        if person["status"] == "Winner"
           winner_first_name = person["name"].split(" ").first
           binding.pry
         end

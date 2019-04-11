@@ -16,7 +16,6 @@ def get_first_name_of_season_winner(data, season)
       end
     }
   end
-    }
   }
   winner_first_name
 end

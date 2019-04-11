@@ -1,5 +1,5 @@
 require 'pry'
-require './data.rb'
+require './lib/data.rb'
 
 #####
 #####

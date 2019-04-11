@@ -4,10 +4,10 @@ require './lib/data.rb'
 #####
 #####
 
-def get_first_name_of_season_winner(data, season)
+def get_first_name_of_season_winner(data_set, season)
   winner_first_name = ""
 
-  data.each {|season_name, contestants|
+  data_set.each {|season_name, contestants|
     if season.to_sym == season_name
       contestants.each {|person|
         if person[:"status"] == "Winner"

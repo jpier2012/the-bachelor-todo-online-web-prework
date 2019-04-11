@@ -43,10 +43,12 @@ end
 def count_contestants_by_hometown(data, hometown)
   # count contestants by each hometown
 
+  new_hash = {}
   hometown = ""
   ht_count = 0
 
   data.each {|season_name, contestants|
+    
     contestants.each {|person|
       if person["hometown"] == hometown
         name = person["name"]

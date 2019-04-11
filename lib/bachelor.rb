@@ -34,6 +34,7 @@ def get_contestant_name(data, occupation)
       end
     }
   }
+
   name
 end
 

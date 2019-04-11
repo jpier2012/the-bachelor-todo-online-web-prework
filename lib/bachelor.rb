@@ -17,7 +17,7 @@ def get_first_name_of_season_winner(data, season)
       }
     end
   }
-  winner_first_name
+  winner_first_name.to_str
 end
 
 puts get_first_name_of_season_winner(data_set,"season 10")

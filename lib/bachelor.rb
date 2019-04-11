@@ -12,7 +12,7 @@ def get_first_name_of_season_winner(data, season)
       contestants.each {|person|
         if person[:"status"] == "Winner"
           winner_first_name = person[:"name"].split(" ").first
-          
+
         end
       }
     end

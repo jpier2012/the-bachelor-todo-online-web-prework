@@ -20,10 +20,8 @@ def get_first_name_of_season_winner(data_set, season)
   winner_first_name
 end
 
-puts get_first_name_of_season_winner(data, "season 10")
 #####
 #####
-
 
 def get_contestant_name(data, occupation)
 # returns the name of the women with a certain occupation

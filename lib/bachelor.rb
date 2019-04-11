@@ -42,7 +42,7 @@ def get_contestant_name(data, occupation)
   name
 end
 
-puts get_contestant_name(dat_set, "Chiropractic Assistant")
+puts get_contestant_name(data_set, "Chiropractic Assistant")
 
 #####
 #####

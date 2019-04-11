@@ -18,7 +18,7 @@ def get_first_name_of_season_winner(data, season)
     end
   }
   binding.pry
-  winner_first_name
+  puts winner_first_name
 end
 
 #puts get_first_name_of_season_winner(data_set,"season 10")
